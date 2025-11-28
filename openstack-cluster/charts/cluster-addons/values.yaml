@@ -197,7 +197,7 @@ reloader:
 # Settings for etcd defragmentation jobs
 etcdDefrag:
   # Indicates if the etcd defragmentation job should be enabled
-  enabled: true
+  enabled: false
   chart:
     repo: https://azimuth-cloud.github.io/capi-helm-charts
     name: etcd-defrag
