@@ -4,10 +4,10 @@ dependencies:
 - alias: addons
   condition: addons.enabled
   name: cluster-addons
-  repository: file://../cluster-addons
-  version: '>=0-0'
+  repository: file://./charts/cluster-addons
+  version: '0.1.2'
 description: Helm chart for deploying a cluster on an OpenStack cloud using Cluster
   API.
 name: openstack-cluster
 type: application
-version: 0.1.0
+version: 0.1.2
